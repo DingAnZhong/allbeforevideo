@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="创作流程图">
+  <defs>
+    <linearGradient id="peach" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0b96a"/>
+      <stop offset="1" stop-color="#dd7a35"/>
+    </linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#cf7f28"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="600" fill="#fbf3de"/>
+
+  <!-- 主链路 -->
+  <g font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif">
+    <!-- step cards -->
+    <g>
+      <rect x="40" y="240" width="200" height="104" rx="18" fill="#fffdf6" stroke="#eee0c2" stroke-width="2"/>
+      <rect x="40" y="240" width="200" height="34" rx="18" fill="url(#peach)"/>
+      <rect x="40" y="258" width="200" height="16" fill="url(#peach)"/>
+      <text x="140" y="263" text-anchor="middle" font-size="16" font-weight="700" fill="#4a3418">① 输入</text>
+      <text x="140" y="302" text-anchor="middle" font-size="15" fill="#40331f">故事想法</text>
+      <text x="140" y="326" text-anchor="middle" font-size="13" fill="#85704f">或上传小说 txt/md/epub/docx</text>
+    </g>
+    <g>
+      <rect x="290" y="240" width="200" height="104" rx="18" fill="#fffdf6" stroke="#eee0c2" stroke-width="2"/>
+      <rect x="290" y="240" width="200" height="34" rx="18" fill="url(#peach)"/>
+      <rect x="290" y="258" width="200" height="16" fill="url(#peach)"/>
+      <text x="390" y="263" text-anchor="middle" font-size="16" font-weight="700" fill="#4a3418">② 大纲</text>
+      <text x="390" y="302" text-anchor="middle" font-size="15" fill="#40331f">3–10 场 + 角色卡</text>
+      <text x="390" y="326" text-anchor="middle" font-size="13" fill="#85704f">可对话修改 · 可手动编辑</text>
+    </g>
+    <g>
+      <rect x="540" y="240" width="200" height="104" rx="18" fill="#fffdf6" stroke="#eee0c2" stroke-width="2"/>
+      <rect x="540" y="240" width="200" height="34" rx="18" fill="url(#peach)"/>
+      <rect x="540" y="258" width="200" height="16" fill="url(#peach)"/>
+      <text x="640" y="263" text-anchor="middle" font-size="16" font-weight="700" fill="#4a3418">③ 剧本</text>
+      <text x="640" y="302" text-anchor="middle" font-size="15" fill="#40331f">逐场分镜 · 台词 · 音效</text>
+      <text x="640" y="326" text-anchor="middle" font-size="13" fill="#85704f">人物形象全程一致</text>
+    </g>
+    <g>
+      <rect x="790" y="240" width="200" height="104" rx="18" fill="#fffdf6" stroke="#eee0c2" stroke-width="2"/>
+      <rect x="790" y="240" width="200" height="34" rx="18" fill="url(#peach)"/>
+      <rect x="790" y="258" width="200" height="16" fill="url(#peach)"/>
+      <text x="890" y="263" text-anchor="middle" font-size="16" font-weight="700" fill="#4a3418">④ 导出</text>
+      <text x="890" y="302" text-anchor="middle" font-size="15" fill="#40331f">YAML 契约 + Markdown</text>
+      <text x="890" y="326" text-anchor="middle" font-size="13" fill="#85704f">可下载 · 在线编辑</text>
+    </g>
+    <g>
+      <rect x="1040" y="240" width="130" height="104" rx="18" fill="#40331f"/>
+      <text x="1105" y="286" text-anchor="middle" font-size="16" font-weight="700" fill="#f3c37e">⑤ AI 视频</text>
+      <text x="1105" y="312" text-anchor="middle" font-size="13" fill="#e9dfc8">生成平台</text>
+    </g>
+    <!-- arrows -->
+    <g stroke="#cf7f28" stroke-width="2.5" fill="none">
+      <line x1="240" y1="292" x2="284" y2="292" marker-end="url(#ar)"/>
+      <line x1="490" y1="292" x2="534" y2="292" marker-end="url(#ar)"/>
+      <line x1="740" y1="292" x2="784" y2="292" marker-end="url(#ar)"/>
+      <line x1="990" y1="292" x2="1034" y2="292" marker-end="url(#ar)"/>
+    </g>
+  </g>
+
+  <!-- 上:基调 / 导演风格 / 题材套路 注入 ② -->
+  <g font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif">
+    <rect x="290" y="96" width="200" height="88" rx="18" fill="#fbf0d3" stroke="#f3c37e" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="390" y="130" text-anchor="middle" font-size="15" font-weight="700" fill="#b36420">基调 ×5 · 导演风格 ×6</text>
+    <text x="390" y="156" text-anchor="middle" font-size="13" fill="#85704f">恐怖/悬疑/喜剧/科幻/热血</text>
+    <text x="390" y="174" text-anchor="middle" font-size="13" fill="#85704f">题材套路按想法自动匹配</text>
+    <line x1="390" y1="184" x2="390" y2="234" stroke="#cf7f28" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+  </g>
+
+  <!-- 下:润色 / 压缩 / 记忆 -->
+  <g font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif">
+    <rect x="150" y="430" width="240" height="96" rx="18" fill="#fffdf6" stroke="#eee0c2" stroke-width="2"/>
+    <text x="270" y="464" text-anchor="middle" font-size="15" font-weight="700" fill="#40331f">润色点子 · 一键扩写</text>
+    <text x="270" y="490" text-anchor="middle" font-size="13" fill="#85704f">粗想法 → 鲜明创作前提</text>
+    <text x="270" y="510" text-anchor="middle" font-size="13" fill="#85704f">结果回填输入框可编辑</text>
+    <line x1="270" y1="430" x2="270" y2="392" stroke="#cf7f28" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+    <line x1="390" y1="430" x2="390" y2="350" stroke="#cf7f28" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+
+    <rect x="470" y="430" width="250" height="96" rx="18" fill="#fffdf6" stroke="#eee0c2" stroke-width="2"/>
+    <text x="595" y="464" text-anchor="middle" font-size="15" font-weight="700" fill="#40331f">素材库 · 长文压缩</text>
+    <text x="595" y="490" text-anchor="middle" font-size="13" fill="#85704f">整本书 → 压缩稿(原文永保留)</text>
+    <text x="595" y="510" text-anchor="middle" font-size="13" fill="#85704f">超长上传自动提示</text>
+    <line x1="595" y1="430" x2="595" y2="350" stroke="#cf7f28" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+
+    <rect x="790" y="430" width="290" height="96" rx="18" fill="#fffdf6" stroke="#eee0c2" stroke-width="2"/>
+    <text x="935" y="464" text-anchor="middle" font-size="15" font-weight="700" fill="#40331f">长期记忆 · 越用越懂你</text>
+    <text x="935" y="490" text-anchor="middle" font-size="13" fill="#85704f">写作偏好 / 项目设定 / 会话经验</text>
+    <text x="935" y="510" text-anchor="middle" font-size="13" fill="#85704f">主动开启 · 项目隔离 · 可编辑</text>
+    <path d="M935 430 C 935 380, 760 380, 700 350" stroke="#cf7f28" stroke-width="2" fill="none" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+  </g>
+
+  <text x="600" y="52" text-anchor="middle" font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="800" fill="#40331f">从想法或小说到可拍摄剧本</text>
+  <text x="600" y="80" text-anchor="middle" font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" font-size="14" fill="#85704f">会话过长自动压缩 · 断线自动续跑 · 每一步产物都可编辑</text>
+</svg>

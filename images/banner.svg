@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="AllBeforeVideo banner">
+  <defs>
+    <radialGradient id="glow" cx="0.12" cy="0" r="1">
+      <stop offset="0" stop-color="#b4472f" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#b4472f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="220" fill="#f7f4ed"/>
+  <rect width="1200" height="220" fill="url(#glow)"/>
+  <rect x="0" y="214" width="1200" height="6" fill="#b4472f"/>
+  <g transform="translate(88,68) scale(2.4)">
+    <!-- Storybeat B: screenplay spine + two storyboard cells. -->
+    <path fill="#b4472f" fill-rule="evenodd" clip-rule="evenodd" d="M5 3.5h12.2c5.7 0 9.3 2.45 9.3 6.75 0 2.52-1.42 4.47-3.92 5.55 2.95.92 4.72 3.02 4.72 5.82 0 4.48-3.82 6.88-10.02 6.88H5v-25Zm5.3 4.55v5.55h6.4c2.9 0 4.5-.95 4.5-2.8 0-1.82-1.6-2.75-4.5-2.75h-6.4Zm0 9.78v6.12h6.98c3.05 0 4.72-1.02 4.72-3.07 0-2.02-1.67-3.05-4.72-3.05H10.3Z"/>
+  </g>
+  <text x="176" y="102" font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" font-size="46" letter-spacing="-1.8" fill="#202226"><tspan font-weight="600">all</tspan><tspan font-weight="800">before</tspan><tspan font-weight="650" fill="#b4472f">video</tspan></text>
+  <text x="178" y="142" font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" font-size="21" fill="#62615c">AI 剧本平台 — 对话式创作 + 小说转剧本，输出影视级结构化剧本</text>
+  <g font-family="system-ui,'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" fill="#913622" font-weight="600">
+    <text x="178" y="174">基调/导演风格</text>
+    <text x="319" y="174">·</text>
+    <text x="337" y="174">长期记忆</text>
+    <text x="425" y="174">·</text>
+    <text x="443" y="174">长文压缩</text>
+    <text x="531" y="174">·</text>
+    <text x="549" y="174">积分计费</text>
+  </g>
+</svg>
